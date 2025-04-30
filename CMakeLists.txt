@@ -8,5 +8,7 @@ add_executable(deplaceme main.c
         generale.h
         personnage.c
         animation-personage.c
+        menu.c
+        menu.h
 )
 target_link_libraries(deplaceme -lmingw32 -lalleg44)
